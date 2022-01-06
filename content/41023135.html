@@ -2,7 +2,7 @@
         <head>
         <title>cp2021 homework site</title>
         <meta charset="utf-8">
-<meta property="head" content="H2">
+<meta property="head" content="H1">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -128,7 +128,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li class='has-children'><a href='課後筆記.html'>課後筆記</a><ul class='dropdown'><li><a href='單字翻譯.html'>單字翻譯</a><li><a href='符號解析.html'>符號解析</a><li><a href='書.html'>書</a></li></ul><li class='has-children'><a href='Exam.html'>Exam</a><ul class='dropdown'><li><a href='W13.html'>W13</a></li></ul><li class='has-children'><a href='HW1.html'>HW1</a><ul class='dropdown'><li><a href='run.html'>run</a></li></ul><li><a href='HW2.html'>HW2</a><li><a href='HW3.html'>HW3</a><li><a href='Snake.html'>Snake</a><li><a href='Final Project.html'>Final Project</a><li class='has-children'><a href='期末功課.html'>期末功課</a><ul class='dropdown'><li><a href='final.html'>final</a></li>
+                     <li><a href='About.html'>About</a><li class='has-children'><a href='課後筆記.html'>課後筆記</a><ul class='dropdown'><li><a href='單字翻譯.html'>單字翻譯</a><li><a href='符號解析.html'>符號解析</a><li><a href='書.html'>書</a></li></ul><li><a href='Exam.html'>Exam</a><li class='has-children'><a href='HW1.html'>HW1</a><ul class='dropdown'><li><a href='run.html'>run</a></li></ul><li><a href='HW2.html'>HW2</a><li><a href='HW3.html'>HW3</a><li><a href='Snake.html'>Snake</a><li><a href='Final Project.html'>Final Project</a><li><a href='41023135.html'>41023135</a></li>
                       </ul>
                 </nav>
               </div>
@@ -139,11 +139,7 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">Exam << <a href='Exam.html'>Previous</a> <a href='HW1.html'>Next</a> >> HW1<br /><h1>W13</h1>
-<p><a href="./../downloads/w12.txt">w12.txt</a></p>
-<p><a href="https://en.wikipedia.org/wiki/Flag_of_the_Republic_of_China#Construction_details">ROC 國旗規格</a>.</p>
-<p><a href="https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%9B%BD%E6%97%97#%E8%A7%84%E6%A0%BC">PROC 國旗規格</a> - 可以根據此規格定義, 新增 <button id="procflas">PROC flag</button> 按鈕.</p>
-<p><a href="https://en.wikipedia.org/wiki/Flag_of_the_United_States#Specifications">USA 國旗規格</a> - 可以根據此規格定義, 新增 <button id="usaflag">USA flag</button> 按鈕.</p>
+    <div id="tipue_search_content">Final Project << <a href='Final Project.html'>Previous</a> <br /><h1>41023135</h1>
 <!-- 導入 brython 程式庫 -->
 <script src="./../cmsimde/static/brython.js"></script>
 <script src="./../cmsimde/static/brython_stdlib.js"></script>
@@ -175,14 +171,7 @@ function doSave(storage_id, filename){
 }
 </script>
 </p>
-<p><!-- 導入 gearUtils-0.9.js Cango 齒輪繪圖程式庫 -->
-<script src="https://mde.tw/cp2021/cmsimde/static/Cango-24v03-min.js"></script>
-<script src="https://mde.tw/cp2021/cmsimde/static/gearUtils-09.js"></script>
-<script src="https://mde.tw/cp2021/cmsimde/static/SVGpathUtils-6v03-min.js"></script>
-<script src="https://mde.tw/cp2021/cmsimde/static/sylvester.js"></script>
-<script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script>
-</p>
-<p><button id="add1to100">add 1 to 100</button><button id="p261">p261</button><button id="rocflag">ROC flag</button><button id="w13">w13</button></p>
+<p><button id="final1">final1</button></p>
 <p><!-- ######################  editor1 開始 ###################### --></p>
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
 <div id="kw_editor1" style="width: 600px; height: 300px;"></div>
@@ -198,10 +187,10 @@ function doSave(storage_id, filename){
 <p><!-- 程式執行 ouput 區 --></p>
 <div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console1"></textarea></div>
 <p><!-- Brython 程式執行的結果, 都以 brython_div 作為切入位置 --></p>
-<!-- 這裡的畫布 id 為 brython_div -->
+<p><!-- 這裡的畫布 id 為 brython_div --></p>
 <div id="brython_div"></div>
 <p><!-- ######################  editor1 結束 ###################### --></p>
-<!-- 以下可以開始利用 editor1 的設定編寫對應 Brython 程式 -->
+<p><!-- 以下可以開始利用 editor1 的設定編寫對應 Brython 程式 -->
 <script type="text/python3">
 from browser import document as doc
 import ace
@@ -239,7 +228,7 @@ doc['clear_bd1'].bind('click', clear_bd1)
 # 呼叫函式執行
 run1()
 </script>
-<!-- 以上為內建程式, 頁面可透過 ?src=gist_url 執行 -->
+<!-- 以上為內建程式, 頁面可透過 ?src=gist_url 執行 --></p>
 <p><!-- add 1 to 100 開始 -->
 <script type="text/python3">
 from browser import document as doc
@@ -264,26 +253,14 @@ class button2:
         Ace2.editor.gotoLine(0)
         Ace2.run()
 
-add1to100_url = "https://gist.githubusercontent.com/mdecourse/0229a8a017091476a79700b8a190f185/raw/c48e37714f055c3a0027cbfef59e442a6ef659b9/from_1_add_to_100_1.py"
-add1to100 = button2(add1to100_url)
-doc["add1to100"].bind('click', add1to100.do)
-################################# p261 start 
-p261_url = "https://gist.githubusercontent.com/mdecourse/2f56974a40da7a218dbaef376a5b4ca4/raw/980606effcd29635307d6474718cd4a7ef016747/p261.py"
-p261 = button2(p261_url)
-doc["p261"].bind('click', p261.do)
-################################## p261 end
-################################## rocflag start
-rocflag_url = "https://gist.githubusercontent.com/mdecourse/2f56974a40da7a218dbaef376a5b4ca4/raw/0e2ca81d5c2539c4b6c86071c8cf9de0b1251b9c/roc_flag.py"
-rocflag = button2(rocflag_url)
-doc["rocflag"].bind("click", rocflag.do)
-################################## rocflag end
-################################# w13 start
-w13_url = "https://gist.githubusercontent.com/41023135/11b2ba032bd450c7e65104c1e04407b1/raw/778fbe96ede5a3c7300ffda23d03664891d10d1d/gistfile2.txt"
-w13 = button2(w13_url)
-doc["w13"].bind('click', w13.do)
-################################## w13 end
+
+################################# final1 start
+final1_url = "https://gist.githubusercontent.com/41023135/474bc8f1cdd80f2b6789269b7fd072b1/raw/5981210ce11aecdfe36b50e9a75f4610e657aec1/final1"
+final1 = button2(final1_url)
+doc["final1"].bind('click', final1.do)
+################################## final1 end
 </script>
-</p><br />Exam << <a href='Exam.html'>Previous</a> <a href='HW1.html'>Next</a> >> HW1</div>
+</p><br />Final Project << <a href='Final Project.html'>Previous</a> </div>
         
     <!-- footer -->
       <div class="container">
