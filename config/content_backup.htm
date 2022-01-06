@@ -18,7 +18,7 @@
 <p>::[] 表示ipv6連接(cmd裡)</p>
 <p>ipconfig/all 所有有的連接方式(ipv6/ipv4)</p>
 <p>句子在編譯器裡面前面加 # 變成單行註解</p>
-<h2>書</h2>
+<p>x//y 整除</p><h2>書</h2>
 <p>整數在硬體中的編碼直接轉換成二進位，大多計算環境中佔4個位元組</p>
 <p>資料類型包含三方面的涵義</p>
 <p>1.儲存結構:儲存的空間大小，幾個位元組組成(沒有無限的定義)</p>
@@ -42,7 +42,7 @@
 <p>x+=1(x變數值+)</p>
 <p>y*=2(y變數值乘以2)</p>
 <p>z**=4(z變數值次方數為4次方)</p>
-<p></p><h1>Exam</h1>
+<p>運算子的優先順序<br/>正負<br/>冪<br/>乘除 取模（取整數）<br/>加減<br/>比較（&lt;,&gt;,&lt;=,&gt;=,==,!=)<br/>邏輯否<br/>邏輯與<br/>邏輯或<br/>括號可以先行運算</p><h1>Exam</h1>
 <h1>HW1</h1>
 <p>HW1 - 網際動畫與 touch typing 佔學期成績 20%.</p>
 <p><span style="background-color: #ffff99;">HW1 必須在 2021.10.20 22:00 之前完成</span>.</p>
@@ -326,6 +326,7 @@ function doSave(storage_id, filename){
 </script>
 </p>
 <p><button id="final1">final1</button></p>
+<p><button id="final2">final2</button></p>
 <p><!-- ######################  editor1 開始 ###################### --></p>
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
 <div id="kw_editor1" style="width: 600px; height: 300px;"></div>
@@ -413,5 +414,10 @@ final1_url = "https://gist.githubusercontent.com/41023135/474bc8f1cdd80f2b678926
 final1 = button2(final1_url)
 doc["final1"].bind('click', final1.do)
 ################################## final1 end
+################################# final2 start
+final2_url = "https://gist.githubusercontent.com/41023135/c08d5c5ce8bc865e23446c6d45cdb27a/raw/d7d9535ab6ca16f81b35e774956f791bcdcc1f7a/final2n"
+final2 = button2(final2_url)
+doc["final2"].bind('click', final2.do)
+################################## final2 end
 </script>
 </p>
